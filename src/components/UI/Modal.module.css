@@ -1,0 +1,36 @@
+.modal {
+  position: fixed;
+  top: 25vh;
+  left: 30%;
+  width: 40%;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+}
+
+.paragraph-right {
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.day-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
